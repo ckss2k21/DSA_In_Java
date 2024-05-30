@@ -12,9 +12,16 @@ package Arrays;
    Output : 
    5 4 3 2 1
    10 9 8 7 6 5 4 3 2 1
-*/
 
-import java.io.*;
+   Approach : We will solve it by using two pointer approach
+   1 2 3 4 5 
+   intially : i = 0 (1) j = n-1  (5)
+   now we will swap ith and jth position value of the array till i < j
+   1 swap with 5
+   2 swap with 4
+   3 remains same
+   Finally, array becomes {5,4,3,2,1} 
+*/
 import java.util.*;
 class ReverseArray{
 
@@ -60,6 +67,6 @@ class Launch {
             rev.printArray(arr);
             t--;
         }
-        
+        sc.close();
     }
 }
