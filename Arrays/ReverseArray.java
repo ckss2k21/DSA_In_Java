@@ -1,5 +1,3 @@
-package Arrays;
-
 /* Problem : Given Multiple testCase t, Every testCases has array of size n. 
 *  Task is to  Reverse the array
 *  Input : 
@@ -22,6 +20,7 @@ package Arrays;
    3 remains same
    Finally, array becomes {5,4,3,2,1} 
 */
+package Arrays;
 import java.util.*;
 class ReverseArray{
 
